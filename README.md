@@ -307,7 +307,7 @@ não comparecerem na discussão, a nota final será zero.
 ## Entrega
 
 O projeto deve ser entregue por **grupos de 2 ou 3 alunos** via Moodle até às
-**23h de 16 de junho de 2019**. Deve ser submetido um ficheiro `zip` com os
+**23h de 18 de junho de 2019**. Deve ser submetido um ficheiro `zip` com os
 seguintes conteúdos:
 
 * Solução ou projeto Visual Studio com implementação do jogo.
