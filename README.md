@@ -313,7 +313,7 @@ seguintes conteúdos:
 * Solução ou projeto Visual Studio com implementação do jogo.
 * Pasta escondida `.git` com o repositório Git local do projeto.
 * Documentação HTML ou CHM gerada com [Doxygen], [Sandcastle] ou ferramenta
-  similar \[[4][ref4]\].
+  similar \[[3][ref3]\].
 * Ficheiro `README.md` contendo o relatório do projeto em formato [Markdown].
 * Ficheiros de imagem contendo o fluxograma e o diagrama UML de classes.
   Estes ficheiros podem ser incluídos no repositório em modo Git LFS.
