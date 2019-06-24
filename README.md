@@ -249,7 +249,7 @@ Este projeto tem os seguintes objetivos:
   * Projeto compila e executa sem erros e/ou *warnings*.
 * **O3** - Projeto adequadamente documentado com
   [comentários de documentação XML][XML]. A documentação gerada em formato HTML
-  ou CHM com [Doxygen], [Sandcastle] ou ferramenta similar \[[4][ref4]\], deve
+  ou CHM com [Doxygen], [Sandcastle] ou ferramenta similar \[[3][ref3]\], deve
   estar incluída no ZIP do projeto, mas **não** integrada no repositório Git.
 * **O4** - Repositório Git deve refletir boa utilização do mesmo, com *commits*
   de todos os elementos do grupo e mensagens de *commit* que sigam as melhores
