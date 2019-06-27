@@ -13,12 +13,13 @@ work. If not, see <http://creativecommons.org/licenses/by-nc-sa/4.0/>.
 ## Descrição do problema
 
 Pretende-se que os alunos desenvolvam, em grupos de 2 a 3 elementos, um
-jogo/simulador em C# no qual zombies perseguem e infetam humanos. O jogo
-desenrola-se numa grelha 2D toroidal<sup>[1](#fn1)</sup>) com dimensões _X_ e
-_Y_ e vizinhança de Moore<sup>[2](#fn2)</sup>. Em cada célula da grelha pode
-estar no máximo um agente, que pode ser um **zombie** ou um **humano**. No
-início da simulação existem _n<sub>z</sub>_ zombies e _n<sub>h</sub>_ humanos,
-num total de _n = n<sub>z</sub>_ + _n<sub>h</sub>_ agentes. Os agentes devem
+jogo/simulador em C# (.NET Core _console app_) no qual zombies perseguem e
+infetam humanos. O jogo desenrola-se numa grelha 2D
+toroidal<sup>[1](#fn1)</sup>) com dimensões _X_ e _Y_ e vizinhança de
+Moore<sup>[2](#fn2)</sup>. Em cada célula da grelha pode estar no máximo
+um agente, que pode ser um **zombie** ou um **humano**. No início da
+simulação existem _n<sub>z</sub>_ zombies e _n<sub>h</sub>_ humanos, num
+total de _n = n<sub>z</sub>_ + _n<sub>h</sub>_ agentes. Os agentes devem
 ser espalhados aleatoriamente pela grelha no início de cada jogo.
 
 O jogo é _turn-based_, e em cada _turn_ (iteração) cada agente pode realizar
@@ -276,12 +277,12 @@ Este projeto tem os seguintes objetivos:
     * Um diagrama UML de classes simples (i.e., sem indicação dos membros da
       classe) descrevendo a estrutura de classes.
     * Um fluxograma mostrando o _game loop_.
-    * Conclusões e matéria aprendida.
-    * Referências, incluindo trocas de ideias com colegas, código aberto
-      reutilizado ou no qual se basearam (e.g., do StackOverflow ou do GitHub)
-      e bibliotecas de terceiros utilizadas. Devem ser o mais detalhados
-      possível.
-  * Nota adicionais sobre o relatório:
+  * Conclusões e matéria aprendida.
+  * Referências, incluindo trocas de ideias com colegas, código aberto
+    reutilizado ou no qual se basearam (e.g., do StackOverflow ou do GitHub)
+    e bibliotecas de terceiros utilizadas. Devem ser o mais detalhados
+    possível.
+  * Nota adicional sobre o relatório:
     * O relatório deve ser simples e breve, com informação mínima e suficiente
       para que seja possível ter uma boa ideia do que foi feito.
     * Atenção aos erros ortográficos, pois serão tidos em conta na nota final.
@@ -310,7 +311,7 @@ O projeto deve ser entregue por **grupos de 2 ou 3 alunos** via Moodle até às
 **23h de 18 de junho de 2019**. Deve ser submetido um ficheiro `zip` com os
 seguintes conteúdos:
 
-* Solução ou projeto Visual Studio com implementação do jogo.
+* Solução ou projeto .NET Core (_console app_) com implementação do jogo.
 * Pasta escondida `.git` com o repositório Git local do projeto.
 * Documentação HTML ou CHM gerada com [Doxygen], [Sandcastle] ou ferramenta
   similar \[[3][ref3]\].
