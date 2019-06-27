@@ -354,8 +354,7 @@ Estruturas de Dados][aed] do [Instituto Superior Técnico][ist]*
 vertical e na horizontal.
 
 <sup><a name="fn2">2</a></sup> Numa grelha 2D, a vizinhança de
-[Moore] é composta pela célula central, pelas células do lado direito e
-esquerdo e pelas células em cima e em baixo.
+[Moore] é composta pela célula central e pelas 8 células que a rodeiam.
 
 <sup><a name="fn3">3</a></sup> Por outras palavras, a lista de agentes deve ser
 embaralhada (_shuffled_) no início de cada _turn_. O algoritmo de
